@@ -11,7 +11,7 @@ before_script:
 
 script:
   - echo "Pruebas unitarias de Calculadora"
-  - python Test*.python
+  - python Test*.py
   - echo "finalizar"
 notifications:
 email: false
